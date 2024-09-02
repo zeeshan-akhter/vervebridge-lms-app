@@ -10,49 +10,49 @@ this is a lms project, that i have build while learning full stack development w
 The project follows a well-organized structure:
 
 ```
-LMS-Project/
+LMS-APP/
 ├── server/
-│   ├── config/
-│   │   ├── db.config.js 
-│   ├── controllers/
-│   │   ├── user.controller.js
-│   │   ├── course.controller.js
-│   │   ├── payment.controller.js
-│   │   ├── miscellaneous.controller.js
-│   ├── middleware/
-│   │   ├── auth.middleware.js
-│   │   ├── error.middleware.js
-│   │   ├── multer.middleware.js
-│   ├── models/
-│   │   ├── user.model.js
-│   │   ├── course.model.js
-│   │   ├── payment.model.js
-│   ├── routes/
-│   │   ├── user.routes.js
-│   │   ├── course.routes.js
-│   │   ├── payment.routes.js
-│   │   ├── miscellaneous.routes.js
-│   ├── uploads/
-│   ├── utils/
-│   │   ├── error.utils.js
+│   ├── Config/
+│   │   ├── database.js 
+│   ├── Controllers/
+│   │   ├── userController.js
+│   │   ├── courseController.js
+│   │   ├── paymentController.js
+│   │   ├── otherController.js
+│   ├── Middlewares/
+│   │   ├── Auth.js
+│   │   ├── catchAsyncErrors.js
+│   │   ├── Error.js
+│   │   ├── multer.js
+│   ├── Models/
+│   │   ├── User.js
+│   │   ├── Course.js
+│   │   ├── Payment.js
+│   │   ├── Stats.js
+│   ├── Routes/
+│   │   ├── userRoutes.js
+│   │   ├── courseRoutes.js
+│   │   ├── paymentRoutes.js
+│   │   ├── otherRoutes.js
+│   ├── Utils/
+│   │   ├── dataUri.js
+│   │   ├── errorHandler.js
 │   │   ├── sendEmail.js
+│   │   ├── SendToken.js
 │   ├── server.js
-│   ├── app.js
+│   ├── App.js
 │   ├── .env
-│   ├── .env.example.js
 │   ├── package.json
 │
 ├── client/
 │   ├── src/
 │   │   ├── assests/
 │   │   ├── components/
-│   │   ├── helpers/
-│   │   ├── layout/
-│   │   ├── pages/
 │   │   ├── Redux/ 
-│   │   ├── App.jsx/
+│   │   ├── App.js/
+│   │   ├── colorModeSwitcher.js
 │   │   ├── index.css/
-│   │   ├── main.jsx/
+│   │   ├── index.j/
 │   │   ├── ...
 │   ├── .env
 │   ├── .env.example.js
